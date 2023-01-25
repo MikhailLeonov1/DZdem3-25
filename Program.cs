@@ -7,10 +7,12 @@ Console.WriteLine("Введите число ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите степень, в которую возвести число");
 int b = Convert.ToInt32(Console.ReadLine());
-int step = a;
+
+int c = a;
 
 for (int i = 1; i < b; i++)
 {
-step = step * a;
+c = c * a;
 }
-Console.WriteLine( "Результат:" + step);
+
+Console.WriteLine( "Результат:" + c);
